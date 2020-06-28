@@ -1,0 +1,26 @@
+<?php
+
+$routing = [
+    '/' => 'main',
+    '/main' => 'main',
+    '/gallery' => 'gallery',
+    '/edit' => 'edit',
+    '/usa' => 'usa',
+    '/ger' => 'ger',
+    '/zsrr' => 'zsrr',
+    '/photos' => 'photos',
+    '/photo' => 'photo',
+    '/view' => 'view',
+    '/deletec' => 'delete_collection',
+    '/delete' => 'delete',
+    '/arr' => 'arr',
+    '/fav' => 'fav',
+    '/login' => 'login',
+    '/logout' => 'logout',
+    '/register' => 'register',
+    '/search' => 'search',
+    '/searchp' => 'searchp',
+    '/uploaderror1' => 'uploaderror1',
+    '/uploaderror2' => 'uploaderror2',
+    '/uploaderror3' => 'uploaderror3',
+];

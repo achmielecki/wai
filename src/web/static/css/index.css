@@ -1,0 +1,176 @@
+html, body {
+    background-image: url("../img/background.jpg");
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+main {
+    background: #C0C0C0;
+    float: left;
+    overflow: hidden;
+    height: auto;
+    width: 88%;
+    margin: 0px auto;
+}
+nav {
+    background-color:dimgray;
+}
+.miniphoto{
+    max-height: 125px;
+    max-width: 200px;
+}
+#mainpicgal{
+    margin-top:20px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:10px;
+    display:block;
+}
+div{
+    margin: 0 0 0 0;
+    padding: 0;
+}
+ul li {
+    padding: 0;
+    margin: 0 0 0 0;
+    list-style-type: none;
+    display:block;
+    height: 30px;
+}
+ul{
+    padding:0;
+    margin: 0 0 0 0;
+}
+nav ul > li:hover {
+    background-color: lightgray;
+}
+
+    nav ul > li:hover > a {
+        color: darkgreen;
+    }
+
+nav ul > li.active {
+    background-color: lightgray;
+}
+
+nav ul li a.active {
+    color: darkgreen;
+}
+li a {
+    color:lightgreen;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+a {
+    font-weight: bold;
+    color: black;
+    font-size: 110%;
+    text-align: left;
+    display:block;
+    margin:1%;
+
+}
+td{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+li a{
+    text-decoration: none;
+}
+h1, h2, h3, h4 {
+    color: lightgreen;
+    text-align: center;
+    font-size: 200%;
+    margin: 0 0 0 0;
+}
+h5{
+    color:lightgreen;
+    font-size: 150%;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+h3{
+    color:black;
+}
+span.expand{
+    color: lightgray;
+    display:none;
+}
+header {
+    color: lightgreen;
+    text-align: center;
+    font-size: 300%;
+    background-image: url("../img/metal.jpeg");
+    margin: 0 20px 10px 0;
+    padding: 50px 0;
+}
+#nojs {
+    display: none;
+}
+
+
+#content { 
+	width:100%;
+	overflow:hidden;
+	margin:0 auto;
+	min-height:calc(100% - 52px); 
+	padding:1%; 
+}
+#mainpic {
+    max-height: 400px;
+    max-width: 400px;
+    width: 20%;
+    height: 20%;
+    margin:1%;
+}
+
+#mainpic:hover {
+        opacity: 0.4;
+        cursor: crosshair;
+    }
+aside{
+    float:right;
+    background-color:dimgray;
+    width:12%;
+}
+@media (max-width: 926px) {
+
+    div, header, main, aside, footer, nav{
+        width:100%;
+        margin: 0 0 0 0;
+    }
+    aside{
+        float:none;
+    }
+    span.expand{
+        display: block;
+        float:right;
+        height:37px;
+        margin-right:5px;
+    }
+    nav{ 
+        display:none;
+
+    }
+    main{
+    }
+
+   
+
+}
+
